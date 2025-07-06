@@ -63,3 +63,4 @@ def number_of_subscribers(subreddit):
             return 0
     except (requests.RequestException, KeyError, ValueError):
         return 0
+
